@@ -1,12 +1,15 @@
 import KedroViz from "@quantumblack/kedro-viz";
-import { demo } from "./demo";
 // import { spaceflights } from "./spaceflights";
+
+
+var json = require('./pipeline.json');
+
 
 function Component() {
   return (
     <div style={{ height: `100vh`, width: `100%` }}>
       <KedroViz
-        data={demo}
+        data={json}
         display={{
           expandAllPipelines: false,
           globalToolbar: false,
