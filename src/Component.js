@@ -30,9 +30,9 @@ function Component() {
         data={jsondata}
         display={{
           expandAllPipelines: false,
-          globalToolbar: true,
-          miniMap: true,
-          sidebar: true,
+          globalToolbar: false,
+          miniMap: false,
+          sidebar: false,
         }}
         theme="dark"
       />
